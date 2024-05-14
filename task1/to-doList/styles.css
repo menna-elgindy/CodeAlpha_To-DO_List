@@ -1,0 +1,124 @@
+body{
+    background-color: #f4c27f4a;
+    display: flex;
+    justify-content:  center;
+    padding-top: 10vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4c27fb5;
+    padding: 2%;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    height: 70vh;
+    width: 40vw;
+}
+img{
+    width:40%;
+    margin: auto;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    margin: auto;
+    width: 70%;
+}
+#taskValue{
+    font-family: "Caveat", cursive;
+    font-size: 18px;
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+#addBtn{
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    border:none;
+    background-image: linear-gradient(234deg, #D8605B, #F4C27F);
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.tasksListContainer{
+    background-color: #ffff;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+ul{
+    padding-left: 5px;
+}
+li{
+    font-family: "Caveat", cursive;
+    font-size: 18px;
+    list-style: none;
+    text-align: start;
+    margin: 5px;
+    border-bottom: #7c757552 1px solid;
+}
+.deleteBtn{
+    margin-left: 5%;
+    color: #d6a563;
+    border: #F4C27F 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1px;
+}
+li::before{
+content:"✓";
+color: #D8605B;
+display: inline;
+background-color: #D8605B;
+border-radius: 50%;
+text-align: center;
+margin-right: 5%;
+padding: 2px;
+}
+
+li.done::before{
+    color:white;
+    font-weight: bold;
+
+ }
+ #saveBtn{
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    border:none;
+    border-radius: 10px;
+    background-image: linear-gradient(234deg, #D8605B, #F4C27F);
+    padding: 5px;
+    font-size: 15px;
+    width:60%;
+    margin: auto;
+    margin-top: 20px;
+
+ }
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+ }
+        
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #d85f5b9b; 
+    border-radius: 5px;
+ }
+        
+::-webkit-scrollbar-thumb {
+    background:#d85f5b67; 
+    border-radius: 5px;
+ }
+        
+::-webkit-scrollbar-thumb:hover {
+    background:#D8605B;   }
