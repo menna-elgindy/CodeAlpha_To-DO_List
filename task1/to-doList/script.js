@@ -28,6 +28,8 @@ function newTask(){
     let task = document.createElement("li");
     if(taskValue.value ==""){
         window.alert("please write your new task");
+    }else if (savedTasks.includes(taskValue.value)){
+        window.alert("this task is already added");
     }else {  
         task.innerHTML= taskValue.value;
         savedTasks.push(taskValue.value);
@@ -61,5 +63,6 @@ function loadSavedTasks(){
      localStorage.clear();  
 }
 
+// Initiall call to load saved tasks
 document.addEventListener("DOMContentLoaded",loadSavedTasks)
 
