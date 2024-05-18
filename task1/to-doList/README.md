@@ -4,7 +4,7 @@ TO-DO list web application i a simple app built using html,css and javascript. U
 save and organize their daily tasks. This app smplifies task management and provides a convenient way to 
 track and prioritize tasks.
 
-## features:
+## Features:
 - Add new task.
 - Check completed tasks as done.
 - Delete task.
@@ -16,3 +16,7 @@ track and prioritize tasks.
 - Check done : By clicking on the check circle existing left the task you want to mark it done.
 - Delete task : By clicking on the cross mark existing right the task you want to delete.
 - Save task : By clicking on the save button , your list is saved at your browser's local storge then loaded every time you visit the   web app.
+
+## Additional features:
+- An alert is popped up if user is trying to add an empty input.
+- An alert is popped up if user is trying to add a duplicated task.
